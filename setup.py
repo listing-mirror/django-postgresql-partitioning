@@ -50,10 +50,10 @@ setup(
     author='starnavi.io',
     author_email='hello@starnavi.io',
     install_requires=[
-        'Django>=1.11,<=5.1', 'setuptools'
+        'Django>=1.11,<5.2', 'setuptools'
     ],
     tests_require=[
-        'Django>=1.11,<=5.1', 'setuptools'
+        'Django>=1.11,<5.2', 'setuptools'
     ],
     cmdclass={'test': TestCommand},
     classifiers=[
